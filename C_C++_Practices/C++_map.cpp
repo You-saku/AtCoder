@@ -17,7 +17,7 @@ int main(){
     score[names[2]] = 1;
     score[names[3]] = 1000;
     cout << "全要素" << endl;
-    for(int i = 0; i < score.size(); i++){//score.size -> 連想配列の数を返す
+    for(int i = 1; i < score.size(); i++){//score.size -> 連想配列の数を返す
         cout << names[i] << score[names[i]] << endl;
     }
     cout << "\n";
