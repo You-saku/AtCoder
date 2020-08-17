@@ -7,9 +7,9 @@ int main(){
     int a;
     int b;
     int tmp;
-    cout << "1‚Â‚ß‚Ì”š‚ğ“ü—Í" << endl;
+    cout << "1????????????" << endl;
     cin >> a;
-    cout << "2‚Â‚ß‚Ì”š‚ğ“ü—Í" << endl;
+    cout << "2????????????" << endl;
     cin >> b;
 
     //
@@ -19,7 +19,7 @@ int main(){
         b = tmp;
     }
     
-    int r; //—]‚è‚ğŠi”[ 
+    int r; //?]????i?[ 
     r = a%b;
     while(r!=0){
         a = b;
@@ -27,5 +27,5 @@ int main(){
         r = a%b;
     }
     
-    cout << "Å‘åŒö–ñ”‚Í[" << b << "]‚Å‚ ‚é" <<endl;
+    cout << "???????[" << b << "]?????" <<endl;
 }   
