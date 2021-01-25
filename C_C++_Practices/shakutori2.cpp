@@ -1,3 +1,4 @@
+//これが尺取り法
 #include<iostream>
 #include<vector>
 
@@ -12,11 +13,10 @@ int main(){
         cin >> a[i];
     }
 
-    int sum = 0;
-    int right = 0;
-
     for(int i = 0; i < q; i++){
         int x; cin >> x;
+        int sum = 0;
+        int right = 0;
 
         for(int left = 0; left < n; left++){
             while(right < n && sum+a[right] <= x){
