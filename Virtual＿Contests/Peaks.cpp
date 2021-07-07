@@ -20,8 +20,8 @@ int main(){
     for(int i=1; i<=m; i++){
         int a,b;
         cin >> a >> b;
-        if(h[a]>h[b]) h_a[b] = false;
-        if(h[a]<h[b]) h_a[a] = false;
+        if(h[a]>=h[b]) h_a[b] = false;
+        if(h[a]<=h[b]) h_a[a] = false;
     }
 
     for(int i=1; i<=n; i++){
