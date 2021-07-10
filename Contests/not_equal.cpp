@@ -15,7 +15,7 @@ int main(){
     sort(C.begin(),C.end());
 
     for(int i=0; i<n; i++){
-        count= count*(C[i]-i)%1000000007;
+        count = count*(C[i]-i)%1000000007;
     }
 
     cout << count << endl;
