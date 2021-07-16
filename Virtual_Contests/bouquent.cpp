@@ -9,6 +9,7 @@ int main(){
     long long  num =  1000000007;
     for(int i = 1; i <= n; i++){
         if(i == a || i == b) continue;
+        
     }
     return 0;
 }
