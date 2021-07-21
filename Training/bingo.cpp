@@ -29,15 +29,15 @@ int main(){
 
     string ans = "No";
     for(int i=0; i < 3; i++){
-        if(boolean[i][0] == boolean[i][1] && boolean[i][1] == boolean[i][2]) ans = "Yes";
+        if(boolean[i][0] && boolean[i][1] && boolean[i][2]) ans = "Yes";
     }
 
     for(int i=0; i < 3; i++){
-        if(boolean[0][i] == boolean[1][i] && boolean[1][i] == boolean[2][i]) ans = "Yes";
+        if(boolean[0][i] && boolean[1][i] &&  boolean[2][i]) ans = "Yes";
     }
 
-    if(boolean[0][0] == boolean[1][1] && boolean[1][1] && boolean[1][1] == boolean[2][2]) ans = "Yes";
-    if(boolean[0][2] == boolean[1][1] && boolean[1][1] && boolean[1][1] == boolean[2][0]) ans = "Yes";
+    if(boolean[0][0] && boolean[1][1] && boolean[2][2]) ans = "Yes";
+    if(boolean[0][2] && boolean[1][1] && boolean[2][0]) ans = "Yes";
     cout << ans << endl;
     return 0;
 }
